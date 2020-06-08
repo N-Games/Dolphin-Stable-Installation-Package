@@ -21,5 +21,5 @@ read -p "Make a selection: " userInput
 elif [[ $userInput == 1 ]]; then
   bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/main.sh)"
 
-elif [[ $userInput == 1 ]]; then
+elif [[ $userInput == 0 ]]; then
   bash -c "$(curl -s https://raw.githubusercontent.com/cobalt2727/L4T-Megascript/master/scripts/apt.sh)"
