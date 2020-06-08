@@ -48,7 +48,6 @@ elif [[ $userInput == 3 ]]; then
 else
   echo ""
 fi
-
 echo "Thank you using N-Games'Dolphin-Stable-Installation-Package!"
 sleep 2
 clear
@@ -56,4 +55,4 @@ echo "Credits:"
 echo "CTRL + CLICK ON A LINK TO OPEN IT"
 echo
 echo -e "\e[N-Games - Manager/Lead Coder\e[0m"
-echo lol
+echo "lol"
