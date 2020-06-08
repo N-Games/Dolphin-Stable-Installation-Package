@@ -52,7 +52,7 @@ if [[ $userInput == 0 ]]; then
   #  bash -c "$(curl -s https://raw.githubusercontent.com/cobalt2727/L4T-Megascript/master/scripts/init.sh)"
   
 elif [[ $userInput == 1 ]]; then
-  bash -c "$(curl -s https://raw.githubusercontent.com/cobalt2727/L4T-Megascript/master/scripts/apt.sh)"
+  bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/main.sh)"
 
 
 elif [[ $userInput == 2 ]]; then
