@@ -56,3 +56,4 @@ echo "Credits:"
 echo "CTRL + CLICK ON A LINK TO OPEN IT"
 echo
 echo -e "\e[N-Games - Manager/Lead Coder\e[0m"
+echo lol
