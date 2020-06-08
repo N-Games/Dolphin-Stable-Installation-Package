@@ -26,7 +26,6 @@ echo -e "\x1B[31mKeep in mind how much storage you have left on your SD card!\e[
 sleep 2
 #echo "note to self: get lakka firmware files and put in /lib/firmware - see L4T gbatemp release thread about that"
 echo
-echo
 echo "1...............Install Dolphin with all the requirement extensions"
 echo "2...............Install all the requirement extensions without Dolphin"
 echo "3...............Install Dolphin without all the requirement extensions"
@@ -47,7 +46,7 @@ elif [[ $userInput == 11 ]]; then
   bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/sub.sh)"
   
   elif [[ $userInput == 3 ]]; then
-  bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/L4T-Megascript/master/scripts/RetroArch/main.sh)"
+  bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/sub.sh)"
  
  elif [[ $userInput == 12 ]]; then
   bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/L4T-Megascript/master/scripts/FLATHUB/main.sh)"
@@ -59,7 +58,7 @@ else
   echo ""
 fi
 
-echo "Thank you for using the L4T Megascript!"
+echo "Thank you for using the N-Games' Dolphin-Stable-Installation-Package!"
 sleep 2
 clear
 echo "Credits:"
