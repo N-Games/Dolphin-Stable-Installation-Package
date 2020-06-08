@@ -1,3 +1,4 @@
+clear
 echo "installing the stable build of Dolphin with the other requirment extensions UwU"
 sudo apt install git
 sudo apt install cmake
