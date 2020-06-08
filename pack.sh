@@ -12,3 +12,5 @@ sudo apt install libreadline-dev
 sudo apt install libgl1-mesa-dev
 sudo apt install libevdev-dev
 sudo apt install libudev-dev
+clear
+echo "It's done OwO"
