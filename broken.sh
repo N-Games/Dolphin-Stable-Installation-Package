@@ -49,8 +49,7 @@ read -p "Make a selection: " userInput
 echo "you have chosen $userInput"
 if [[ $userInput == 0 ]]; then
   echo "This is where the initial setup script will be!"
-  #  bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package
-/master/scripts/main.sh)"
+  #  bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/scripts/main.sh)"
   
 elif [[ $userInput == 1 ]]; then
   bash -c "$(curl -s https://raw.githubusercontent.com/cobalt2727/L4T-Megascript/master/scripts/apt.sh)"
