@@ -4,5 +4,5 @@ echo
 echo
 read -p "Make a selection: " userInput
 
-[[ $userInput == 1 ]]; then
+[[ $userInput == 1 ]]; 
   bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/main.sh)"
