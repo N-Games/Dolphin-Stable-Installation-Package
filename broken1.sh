@@ -43,16 +43,3 @@ elif [[ $userInput == 2 ]]; then
 
 elif [[ $userInput == 3 ]]; then
   bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/L4T-Megascript/master/scripts/dolphin_stable/sub.sh)"
-
-
-else
-  echo ""
-fi
-echo "Thank you using N-Games'Dolphin-Stable-Installation-Package!"
-sleep 2
-clear
-echo "Credits:"
-echo "CTRL + CLICK ON A LINK TO OPEN IT"
-echo
-echo -e "\e[N-Games - Manager/Lead Coder\e[0m"
-echo "lol"
