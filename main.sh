@@ -13,4 +13,5 @@ sudo apt install libgl1-mesa-dev
 sudo apt install libevdev-dev
 sudo apt install libudev-dev
 sudo apt install dolphin-emu
+clear
 echo "You successfully installed Dolphin with all the extensions UwU"
