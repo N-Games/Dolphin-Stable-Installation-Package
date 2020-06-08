@@ -38,7 +38,6 @@ echo "you have chosen $userInput"
 elif [[ $userInput == 1 ]]; then
   bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/main.sh)"
 
-
 elif [[ $userInput == 2 ]]; then
   bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/pack.sh)"
 
@@ -50,7 +49,7 @@ else
   echo ""
 fi
 
-echo "Thank you for using N-Games'Dolphin-Stable-Installation-Package!"
+echo "Thank you using N-Games'Dolphin-Stable-Installation-Package!"
 sleep 2
 clear
 echo "Credits:"
