@@ -16,9 +16,9 @@ if [[ $userInput == 1 ]]; then
   echo "you have chosen $userInput"
 if [[ $userInput == 2 ]]; then
   echo "This is where the initial setup script will be!"
-  #  bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/main.sh)"
+  #  bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/pack.sh)"
   echo "you have chosen $userInput"
   
 if [[ $userInput == 3 ]]; then
   echo "This is where the initial setup script will be!"
-  #  bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/main.sh)"
+  #  bash -c "$(curl -s https://raw.githubusercontent.com/N-Games/Dolphin-Stable-Installation-Package/master/sub.sh)"
